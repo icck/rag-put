@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rag-put"
+version = "0.1.0"
+description = ""
+authors = ["icck <icck.n.n1111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.0"
+langchain-core = "^0.1.12"
+langchain-community = "^0.0.13"
+langchain-openai = "^0.0.2.post1"
+faiss-cpu = "^1.7.4"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
